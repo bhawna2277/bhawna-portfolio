@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhawna Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/f5c9acf995.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav>
+            <img src="images/my-logo.png" width="100px"/>
+            <ul id="sidemenu">
+                <li><a href="header">HOME</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="portfolio">PROJECTS</a></li>
+                <li><a href="contect">CONTACT</a></li> 
+                <i class="fa-sharp fa-solid fa-circle-xmark fas" style="color: #d4ba11;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars fas" style="color: #d4ba11;" onclick="openmenu()"></i>
+        </nav>
+      
+        <header>
+            <div id="header">
+                <div class="header-text">
+                    <h1> Hello, My Name Is <span>BHAWNA MISHRA </span>
+                     I Am a <span>FRONTEND DEVELOPER </span></h1><br>
+                     <p>Seeking a challenging and dynamic role as an IT
+                        professional,where I can apply my technical
+                        knowledge, problem-solving skills, and passion for
+                        innovation to contribute to the development and
+                        implementation of cutting-edge technology
+                        solutions.
+                    </p>
+                    <a class="btnn" href="#about">More About Me</a>
+                </div>
+                <div class="images">
+                    <img src="images/background.jpeg" alt="">
+                </div>
+            </div >
+        </header>
+
+    <!----------------about me -------------------------->
+    <div id="about">
+        
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg" alt="my name is bhawna">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>
+                    Seeking a challenging and dynamic role as an IT
+                        professional, where I can apply my technical
+                        knowledge, problem-solving skills, and passion for
+                        innovation to contribute to the development and
+                        implementation of cutting-edge technology
+                        solutions.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick = "opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick = "opentab('exprience')"> Exprience</p>
+                        <p class="tab-links"onclick = "opentab('education')"> Education</p>
+                        <p class="tab-links"onclick = "opentab('hobbies')"> Hobbies</p>
+                        <p class="tab-links"onclick = "opentab('personal-information')"> Personal Info</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Design web interface</li>
+                            <li><span>WEB DEVELOPER</span><br> Develop the web application</li>
+                            <li><span>SOFTWARE DEVELOPER</span><br> Develop the software application</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2023-current</span><br>WEB DEVELOPER at Tech Green Innovation.</li>
+                            <li><span>2022</span><br><br> FULL STACK WEB DEVELOPMENT internship at Birilica Services Pvt Ltd in college period.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br>polytechnic in Information Technlogy from  GOVT POLYTECHNIC Dehradun (80%).</li>
+                            <li><span>2020</span><br>12th from UK Board (60%).</li>
+                            <li><span>2018</span><br>10th from UK board (64%).</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Playing out Door Game</span><br>shortput throw<br>running<br>I am also state leval player in shortput throw. </li>
+                            <li><span>Listening song</span><br>like Old Song<br>Kumauni Song </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="personal-information">
+                        <ul>
+                            <li><span>FATHER NAME</span><br>MR. GAURI DUTT MISHRA </li>
+                            <li><span>MOTHER NAME</span><br>MRS. CHAMPA MISHRA </li>
+                            <li><span>DOB</span><br>30 - NOV - 2003</li>
+                            <li><span>LANGUAGE</span><br>HINDI<br>ENGLISH </li>
+                            <li><span>ADDRESS</span><br>MAYUR VIHAR 1 NEW DEHLI (110091) </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----------------services----------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="title">My  Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DEVLOPER</h2>
+                    <p> I am Creating a website layout using HTML/CSS
+                        Working with web designers to meet their visual expectations 
+                        Evaluating code to see if it’s on par with industry standards
+                        Troubleshooting website bugs.
+                        Testing website quality to ensure it’s running efficiently
+                    </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX DESIGN</h2>
+                    <p> Gathering and evaluating user requirements, in collaboration with product managers and engineers
+                        Illustrating design ideas using storyboards, process flows and sitemaps
+                        Designing graphic user interface elements, like menus, tabs and widgets.
+                    </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>SOFTWARE DEVELOPER</h2>
+                    <p>  I am design and devlop computer applications or programs. Software quality assurance 
+                         and testers identify problems with applications or programs and report defects.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/reachev.jpg" >
+                    <div class="layer">
+                        <h3>Reach EV </h3>
+                        <p>A dynamic and informative website for Reach EV, promoting electric vehicle technology and sustainability. It offers detailed info on their EV range, charging solutions, eco-friendly initiatives, resources for enthusiasts, industry news, and a platform to connect with the EV community.</p>
+                        <a href="https://reachev.in/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/rs.jpg" >
+                    <div class="layer">
+                        <h3>RoyalAscot</h3>
+                        <p>A luxurious hospitality website for Royal Ascot, showcasing premium services, exclusive events, and high-end accommodations. The site offers a seamless user experience with detailed information about their offerings and a booking system for their distinguished guests.
+                         </p>
+                        <a href="https://royalascot.ae"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="images/arra.jpg" >
+                    <div class="layer">
+                        <h3>ARRA</h3>
+                        <p>A corporate website for ARRA, highlighting their innovative solutions and services in the technology sector. The site is designed to provide insights into their cutting-edge projects, client testimonials, and a comprehensive overview of their business operations.</p>
+                        <a href="https://www.arra.co.in/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tgf.jpg" >
+                    <div class="layer">
+                        <h3>The Gourmet Fest </h3>
+                        <p>An engaging website for The Gourmet Fest, a food festival celebrating culinary excellence. It features event schedules, chef profiles, ticketing options, and vibrant galleries to attract food enthusiasts and promote the festival's unique gastronomic experiences.</p>
+                        <a href="https://thegourmetfest.com/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/clearlifescince.jpg" >
+                    <div class="layer">
+                        <h3>Clear Life Science</h3>
+                        <p>A professional online presence for Clear Life Science, focusing on their research, products, and advancements in the health and wellness industry. The website includes detailed product descriptions, scientific research papers, and information on their latest innovations./p>
+                        </p>
+                        <a href="https://clearlifescience.com/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/nav.jpg" >
+                    <div class="layer">
+                        <h3>NAB Centre for Women</h3>
+                        <p>An informative and supportive website for the NAB Centre for Women, dedicated to empowering women through education, resources, and community programs. The site offers information on their initiatives, success stories, and ways to get involved or seek assistance.</p>
+                         <a href="https://nabcentreforwomen.org/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sagus.jpg" >
+                    <div class="layer">
+                        <h3>Sagus Legal</h3>
+                        <p>A sleek and modern website for Sagus Legal, a law firm specializing in various legal services. The site provides detailed information about their areas of expertise, attorney profiles, case studies, and a blog with legal insights and updates.</p>
+                         <a href="https://saguslegal.com/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/blessing.jpg" >
+                    <div class="layer">
+                        <h3>Blessing ready</h3>
+                        <p>A spiritual book website for Blessing Ready, offering a curated selection of inspirational and faith-based books. The site provides detailed book descriptions, author biographies, and reader reviews, helping visitors find the perfect books to deepen their faith and spiritual journey.
+                             </p>
+                         <a href="https://saguslegal.com/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <div id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contect-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>mishrabhawna20031@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7817030982</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/bhawna_mishra2277"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/bhawna2277"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://in.linkedin.com/bhawnamishra"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/bhawna mishra web developer 1.pdf" class="btn">Download cv</a>
+    
+                </div>
+                <div class="contect-right">
+                    <form action="index.php" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea><br>
+                        <input type="submit" name="submit" class="btnn btn1"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <script>
+    var sidemenu= document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+        </script>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tebname){
+
+         for( tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+         }
+         for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+        
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tebname).classList.add("active-tab");
+       } 
+    </script>
+</body>
+</html>
